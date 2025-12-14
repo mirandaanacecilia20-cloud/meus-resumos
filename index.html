@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meus Resumos</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6fb;
+      color: #333;
+    }
+
+    header {
+      background: #4f46e5;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .preco {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 15px 0;
+      color: #4f46e5;
+    }
+
+    .botao {
+      display: inline-block;
+      background: #4f46e5;
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      transition: 0.2s;
+    }
+
+    .botao:hover {
+      background: #3730a3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>📘 Meus Resumos</h1>
+    <p>Conteúdos simples e organizados para ajudar nos estudos</p>
+  </header>
+
+  <main>
+    <h2>Conteúdos disponíveis</h2>
+
+    <div class="produtos">
+
+      <div class="card">
+        <h3>Resumo de Matemática</h3>
+        <p>Explicações claras e exemplos fáceis.</p>
+        <div class="preco">R$ 10,00</div>
+        <a class="botao" href="SEU_LINK_DE_PAGAMENTO">Comprar</a>
+      </div>
+
+      <div class="card">
+        <h3>Resumo de Inglês</h3>
+        <p>Tempos verbais, vocabulário e exercícios.</p>
+        <div class="preco">R$ 12,00</div>
+        <a class="botao" href="SEU_LINK_DE_PAGAMENTO">Comprar</a>
+      </div>
+
+      <div class="card">
+        <h3>Pacote Completo</h3>
+        <p>Vários resumos com desconto.</p>
+        <div class="preco">R$ 25,00</div>
+        <a class="botao" href="SEU_LINK_DE_PAGAMENTO">Comprar</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 • Conteúdos educacionais</p>
+  </footer>
+
+</body>
+</html>
